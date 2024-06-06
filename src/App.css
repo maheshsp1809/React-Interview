@@ -1,0 +1,17 @@
+.square {
+    width: 50px;       /* Set the width of the square */
+    height: 50px;      /* Set the height of the square */      /* Optional: Add some space between squares */
+    display: inline-block;  /* Make the squares inline blocks */
+    background-color: lightblue;  /* Background color of the squares */
+    border: 1px solid #000;       /* Border around the squares */
+    text-align: center;     /* Center the text horizontally */
+    line-height: 50px;      /* Center the text vertically by matching the height */
+    font-size: 20px;        /* Font size of the text inside the squares */
+    cursor: pointer;        /* Change cursor to pointer on hover */
+  }
+  
+  .board-row {
+    display: flex;          /* Use flexbox to lay out the squares in a row */
+    justify-content: center;  /* Center the row content */
+  }
+  
