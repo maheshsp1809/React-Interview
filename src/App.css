@@ -1,4 +1,4 @@
-.square {
+/* .square {
     width: 50px;       /* Set the width of the square */
     height: 50px;      /* Set the height of the square */      /* Optional: Add some space between squares */
     display: inline-block;  /* Make the squares inline blocks */
@@ -14,4 +14,7 @@
     display: flex;          /* Use flexbox to lay out the squares in a row */
     justify-content: center;  /* Center the row content */
   }
-  
+   */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
